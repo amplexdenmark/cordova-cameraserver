@@ -97,8 +97,8 @@
     } else*/
     if ([self.captureSession canSetSessionPreset:AVCaptureSessionPreset1280x720])
     {
-        NSLog(@"Set preview port to 1280X720");
-        self.captureSession.sessionPreset = AVCaptureSessionPreset1280x720;
+        NSLog(@"Set preview port to 640x480");
+        self.captureSession.sessionPreset = AVCaptureSessionPreset640x480;
     } else
     //set to 640x480 if 1280x720 not supported on device
     if ([self.captureSession canSetSessionPreset:AVCaptureSessionPreset640x480])
